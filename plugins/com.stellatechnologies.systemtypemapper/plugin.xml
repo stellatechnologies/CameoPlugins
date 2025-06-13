@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="com.stellatechnologies.systemtypemapper"
+        name="Stella Technologies System Type Mapper"
+        version="1.0"
+        provider-name="Stella Technologies"
+        class="com.stellatechnologies.systemtypemapper.SystemTypeMapperPlugin">
+  <requires>
+    <api version="1.0"/>
+  </requires>
+  <runtime>
+    <library name="SystemTypeMapper.jar"/>
+  </runtime>
+</plugin>

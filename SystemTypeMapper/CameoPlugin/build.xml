@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="SystemTypeMapper" default="default" basedir=".">
+    <description>Builds, tests, and runs the System Type Mapper plugin.</description>
+    <import file="nbproject/build-impl.xml"/>
+
+    <!-- Define the external libraries -->
+    <path id="lib.path">
+        <fileset dir="lib">
+            <include name="*.jar"/>
+        </fileset>
+    </path>
+
+    <!-- Override compile target to include external libraries -->
+    <target name="-post-compile">
+        <copy todir="${build.classes.dir}">
+            <fileset dir="lib" includes="*.jar"/>
+        </copy>
+    </target>
+
+    <!-- Override jar target to include external libraries -->
+    <target name="-post-jar">
+        <jar update="true" destfile="${dist.jar}">
+            <zipfileset src="lib/json.jar" excludes="META-INF/*.SF"/>
+        </jar>
+    </target>
+    
+</project>

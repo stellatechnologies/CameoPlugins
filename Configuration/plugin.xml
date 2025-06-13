@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="com.stellatechnologies.configuration"
+        name="Stella Technologies Configuration"
+        version="1.0"
+        provider-name="Stella Technologies"
+        class="com.stellatechnologies.configuration.Configuration">
+  <requires>
+    <api version="1.0"/>
+  </requires>
+  <runtime>
+    <library name="Configuration.jar"/>
+  </runtime>
+</plugin>

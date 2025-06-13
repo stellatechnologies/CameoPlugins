@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="com.stellatechnologies.generictableexport"
+        name="Stella Technologies Generic Table Export"
+        version="1.0"
+        provider-name="Stella Technologies"
+        class="com.stellatechnologies.generictableexport.GenericTableExport">
+  <requires>
+    <api version="1.0"/>
+  </requires>
+  <runtime>
+    <library name="GenericTableExport.jar"/>
+  </runtime>
+</plugin>
