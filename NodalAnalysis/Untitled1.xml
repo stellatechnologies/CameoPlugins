@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmlns:uml="http://www.omg.org/spec/UML/20131001"
+         xmlns:MD_Customization_for_SysML__additional_stereotypes="http://www.magicdraw.com/spec/Customization/180/SysML"
+         xmlns:StandardProfile="http://www.omg.org/spec/UML/20131001/StandardProfile"
+         xmlns:xmi="http://www.omg.org/spec/XMI/20131001"
+         xmlns:sysml="http://www.omg.org/spec/SysML/20181001/SysML"
+         xmlns:MD_Customization_for_Requirements__additional_stereotypes="http://www.magicdraw.com/spec/Customization/180/Requirements">
+   <xmi:documentation xmi:type="xmi:Documentation">
+      <xmi:exporter>MagicDraw Clean XMI Exporter</xmi:exporter>
+      <xmi:exporterVersion>2021x</xmi:exporterVersion>
+   </xmi:documentation>
+   <uml:Model xmi:type="uml:Model" xmi:id="eee_1045467100313_135436_1" name="Model">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_2021x_2_5a001fc_1749610974329_809512_3022"
+                    body="Author:Jason.&#xA;Created:10/1/12 3:10 PM.&#xA;Title:.&#xA;Comment:.&#xA;">
+         <annotatedElement xmi:idref="eee_1045467100313_135436_1"/>
+      </ownedComment>
+      <packagedElement xmi:type="uml:Class" xmi:id="_2021x_2_5a001fc_1749611937666_941254_2810"
+                       name="Windows 11">
+         <ownedComment xmi:type="uml:Comment" xmi:id="_2021x_2_5a001fc_1749611943555_770358_2839"
+                       body="The Microsoft Windows 11 operating system">
+            <annotatedElement xmi:idref="_2021x_2_5a001fc_1749611937666_941254_2810"/>
+         </ownedComment>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_2021x_2_5a001fc_1749611971766_6738_2842"
+                       name="Network Firewall">
+         <ownedComment xmi:type="uml:Comment" xmi:id="_2021x_2_5a001fc_1749611982448_404938_2871"
+                       body="A network attached firewall that prevents malware">
+            <annotatedElement xmi:idref="_2021x_2_5a001fc_1749611971766_6738_2842"/>
+         </ownedComment>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_2021x_2_5a001fc_1749611989204_480133_2874"
+                       name="C">
+         <ownedComment xmi:type="uml:Comment" xmi:id="_2021x_2_5a001fc_1749612002138_214690_2903"
+                       body="Definition of C">
+            <annotatedElement xmi:idref="_2021x_2_5a001fc_1749611989204_480133_2874"/>
+         </ownedComment>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_2021x_2_5a001fc_1749700568259_115903_3155"
+                       name="Derived Properties">
+         <packagedElement xmi:type="uml:Class" xmi:id="_2021x_2_5a001fc_1749700568264_720715_3157"
+                          name="Block Customization">
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_2021x_2_5a001fc_1749700568267_760881_3159"
+                            name="unnamed1"
+                            visibility="private">
+               <type href="http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#String"/>
+               <lowerValue xmi:type="uml:LiteralInteger"
+                           xmi:id="_2021x_2_5a001fc_1749700568268_677248_3161"/>
+               <upperValue xmi:type="uml:LiteralUnlimitedNatural"
+                           xmi:id="_2021x_2_5a001fc_1749700568267_555155_3160"
+                           value="*"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_2021x_2_5a001fc_1749700568278_235321_3162"
+                            name="Traceability"
+                            visibility="private">
+               <qualifier xmi:type="uml:Property" xmi:id="_2021x_2_5a001fc_1749700568281_964773_3169"
+                          name="Other"
+                          visibility="private"/>
+            </ownedAttribute>
+         </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_2021x_2_5a001fc_1749744285896_769316_2830"
+                       name="GenericTableExports">
+         <packagedElement xmi:type="uml:Package" xmi:id="_2021x_2_5a001fc_1749744301332_536959_2831"
+                          name="System"/>
+         <packagedElement xmi:type="uml:Package" xmi:id="_2021x_2_5a001fc_1749746034706_472287_2888"
+                          name="AuthorizationBoundary"/>
+      </packagedElement>
+      <profileApplication xmi:type="uml:ProfileApplication"
+                          xmi:id="_2021x_2_5a001fc_1749610974333_190521_3071">
+         <appliedProfile href="http://www.omg.org/spec/SysML/20181001/SysML.xmi#SysML"/>
+      </profileApplication>
+   </uml:Model>
+   <sysml:InterfaceBlock xmi:id="_2021x_2_5a001fc_1749611989204_480133_2874_application"
+                         base_Class="_2021x_2_5a001fc_1749611989204_480133_2874"/>
+   <sysml:Block xmi:id="_2021x_2_5a001fc_1749611971766_6738_2842_application"
+                base_Class="_2021x_2_5a001fc_1749611971766_6738_2842"/>
+   <sysml:Block xmi:id="_2021x_2_5a001fc_1749611937666_941254_2810_application"
+                base_Class="_2021x_2_5a001fc_1749611937666_941254_2810"/>
+</xmi:XMI>

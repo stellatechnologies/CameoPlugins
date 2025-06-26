@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="com.stellatechnologies.nodalanalysis"
+        name="Stella Technologies Nodal Analysis"
+        version="1.0"
+        provider-name="Stella Technologies"
+        class="com.stellatechnologies.nodalanalysis.NodalAnalysis">
+  <requires>
+    <api version="1.0"/>
+  </requires>
+  <runtime>
+    <library name="NodalAnalysis.jar"/>
+  </runtime>
+</plugin>

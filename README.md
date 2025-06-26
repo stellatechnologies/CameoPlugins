@@ -46,6 +46,26 @@ A flexible plugin for exporting model data to various table formats.
 
 [Detailed Documentation](GenericTableExport/README.md)
 
+### 4. Nodal Analysis
+A sophisticated plugin for analyzing and visualizing relationships between model elements in your Cameo projects.
+
+**Key Features:**
+- Path finding between model elements
+- Interactive relationship explorer
+- Visual graph representation of model relationships
+- Support for various relationship types:
+  - Direct relationships
+  - Ownership relationships
+  - Typed attributes
+  - Stereotypes
+  - Classifier behaviors
+- Customizable path length search
+- Interactive graph manipulation
+- Detailed relationship visualization with different line styles
+- Element filtering options
+
+[Detailed Documentation](NodalAnalysis/README.md)
+
 ## Installation
 
 ### Prerequisites
@@ -66,7 +86,8 @@ A flexible plugin for exporting model data to various table formats.
      plugins/
      ├── com.stellatechnologies.configuration/
      ├── com.stellatechnologies.generictableexport/
-     └── com.stellatechnologies.systemtypemapper/
+     ├── com.stellatechnologies.systemtypemapper/
+     └── com.stellatechnologies.nodalanalysis/
      ```
    - For System Type Mapper, follow the additional setup instructions in its README
 
@@ -93,6 +114,14 @@ A flexible plugin for exporting model data to various table formats.
 3. Configure export settings
 4. Generate the export
 
+### Nodal Analysis
+1. Open your model in Cameo
+2. Access the plugin through the "Stella" menu
+3. Choose between:
+   - "Find Paths Between Elements" - Select two elements to find relationships between them
+   - "Relationship Explorer" - Explore and visualize all relationships in your model
+4. Use the interactive graph to explore and analyze relationships
+
 ## Development
 
 ### Project Structure
@@ -103,10 +132,14 @@ A flexible plugin for exporting model data to various table formats.
 │   └── flask_backend/        # Python backend
 ├── Configuration/            # Configuration plugin
 ├── GenericTableExport/       # Table export plugin
+├── NodalAnalysis/            # Nodal analysis plugin
+│   ├── src/                  # Java source code
+│   └── plugin.xml           # Plugin configuration
 ├── plugins/                  # Compiled plugin distributions
 │   ├── com.stellatechnologies.configuration/
 │   ├── com.stellatechnologies.generictableexport/
-│   └── com.stellatechnologies.systemtypemapper/
+│   ├── com.stellatechnologies.systemtypemapper/
+│   └── com.stellatechnologies.nodalanalysis/
 └── LICENSE                   # Project license
 ```
 
